@@ -96,26 +96,26 @@
 	</dependencies>
 	
 	<distributionManagement>
-	
+	<!--
 	    <repository> 
 		<id>internal.repo</id>
 		<name>Internal repo</name> 
 		<url>file:///home/sreeni/local-repo</url> 
 	    </repository> 
+	-->
 	
-	<!--
 	    <repository>
 	      <id>nexus</id>
 	      <name>Releases Nexus Repository</name>
-	      <url>http://192.168.29.242:8081/repository/wallmart-releases/</url>
+	      <url>http://localhost:8081/nexus/content/repositories/wallmart-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Snapshot Nexus Repository </name>
-	      <url>http://192.168.29.242:8081/repository/wallmart-snapshots/</url>
+	      <url>http://localhost:8081/nexus/content/repositories/wallmart-snapshots/</url>
 	    </snapshotRepository>
-           -->
+         
 	    
 	</distributionManagement>
 	
