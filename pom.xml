@@ -97,6 +97,13 @@
 	
 	<distributionManagement>
 	
+	    <repository> 
+		<id>internal.repo</id>
+		<name>Internal repo</name> 
+		<url>file:///home/sreeni/local-repo</url> 
+	    </repository> 
+	
+	<!--
 	    <repository>
 	      <id>nexus</id>
 	      <name>Releases Nexus Repository</name>
@@ -108,6 +115,7 @@
 	      <name>Snapshot Nexus Repository </name>
 	      <url>http://192.168.29.242:8081/repository/wallmart-snapshots/</url>
 	    </snapshotRepository>
+           -->
 	    
 	</distributionManagement>
 	
